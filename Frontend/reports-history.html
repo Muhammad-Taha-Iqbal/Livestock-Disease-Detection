@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reports History</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style5.css">
+</head>
+
+<body>
+
+<div class="dashboard-layout">
+
+  <aside class="sidebar">
+    <h2 class="logo">LHMS</h2>
+
+    <nav class="nav-menu">
+      <a href="dashboard.html" class="nav-link">Dashboard</a>
+      <a href="animal-selection-and-detection.html" class="nav-link">Animal Selection</a>
+      <a href="health-indicators.html" class="nav-link">Health Indicators</a>
+      <a href="reports-history.html" class="nav-link active">Reports History</a>
+      <a href="vet-connect.html" class="nav-link">Vet Connect</a>
+    </nav>
+  </aside>
+
+  <main class="dashboard-content">
+
+    <header class="dashboard-header">
+      <h1>Reports History</h1>
+      <span class="user-name">Previous analysis records</span>
+    </header>
+
+    <section class="reports-table-wrapper">
+
+      <table class="reports-table">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Animal</th>
+            <th>Disease</th>
+            <th>Confidence</th>
+          </tr>
+        </thead>
+
+        <tbody id="historyBody">
+          <!-- DATA WILL LOAD HERE -->
+        </tbody>
+
+      </table>
+
+    </section>
+
+  </main>
+
+</div>
+
+<script>
+async function loadHistory() {
+  try {
+    const res = await fetch("http://127.0.0.1:5001/history");
+    const data = await res.json();
+
+    let table = document.getElementById("historyBody");
+    table.innerHTML = "";
+
+    data.reverse().forEach(item => {
+      table.innerHTML += `
+        <tr>
+          <td>${item.time}</td>
+          <td>${item.animal}</td>
+          <td>${item.disease}</td>
+          <td>${item.confidence}</td>
+        </tr>
+      `;
+    });
+
+  } catch (err) {
+    console.log("Error loading history:", err);
+  }
+}
+
+loadHistory();
+</script>
+
+</body>
+</html>

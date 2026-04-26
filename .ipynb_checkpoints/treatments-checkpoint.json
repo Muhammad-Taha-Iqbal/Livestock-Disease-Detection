@@ -1,0 +1,47 @@
+{
+  "lumpy": {
+    "treatment": "Isolate the animal, provide supportive care, and consult a veterinarian for vaccination and antiviral management."
+  },
+  "healthy cow": {
+    "treatment": "No treatment required. Maintain proper nutrition and hygiene."
+  },
+  "foot and mouth": {
+    "treatment": "Immediate isolation, disinfect environment, provide fluid therapy, and seek veterinary assistance."
+  },
+
+  "Healthy Chicken": {
+    "treatment": "No treatment needed. Maintain clean housing and balanced diet."
+  },
+  "Anemia Virus": {
+    "treatment": "Provide vitamin supplements, isolate infected birds, and consult a vet."
+  },
+  "Bumble Foot": {
+    "treatment": "Clean the wound, apply antiseptic, and provide soft bedding."
+  },
+  "Fowl Pox Disease": {
+    "treatment": "Isolate infected birds and provide supportive care."
+  },
+
+  "Eye Infection": {
+    "treatment": "Clean eyes with saline solution and consult a veterinarian."
+  },
+  "Foot and Mouth": {
+    "treatment": "Isolate immediately and disinfect surroundings. Seek urgent veterinary care."
+  },
+  "Healthy Camel": {
+    "treatment": "No treatment required."
+  },
+  "Scabies": {
+    "treatment": "Apply anti-parasitic medication and isolate the animal."
+  },
+
+  "Goatpox": {
+    "treatment": "Isolate animal, provide supportive care, and vaccinate herd if possible."
+  },
+  "Healthy goat": {
+    "treatment": "No treatment required."
+  },
+  "Soremouth": {
+    "treatment": "Apply topical antiseptics and isolate infected goats."
+  }
+}

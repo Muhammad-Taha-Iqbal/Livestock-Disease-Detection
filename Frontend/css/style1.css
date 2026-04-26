@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+/* Full-screen background image */
+.welcome-screen {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../images/BGIMG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main layout */
+.welcome-container {
+  width: 1200px;
+  max-width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+/* Left text */
+.welcome-text {
+  flex: 1;
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.welcome-text h1 {
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  margin-top: -200px;
+}
+
+.welcome-text p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+/* Container now holds form */
+.welcome-buttons {
+  margin-top: 60px;
+}
+
+/* FORM STYLING */
+.welcome-buttons form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-width: 300px;
+}
+
+/* Input Fields */
+.welcome-buttons input {
+  padding: 12px 14px;
+  border-radius: 6px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+/* Buttons Row */
+.form-buttons {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+/* Buttons */
+.btn {
+  padding: 14px 28px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+  cursor: pointer;
+  border: none;
+}
+
+.primary-btn {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.primary-btn:hover {
+  background-color: #1e40af;
+}
+
+.secondary-btn {
+  border: 1.5px solid #ffffff;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.secondary-btn:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* Save button spacing */
+.save-btn {
+  margin-top: 10px;
+}
+
+/* Right image */
+.welcome-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-image img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+
+  .welcome-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .welcome-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .form-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .welcome-image img {
+    max-width: 80%;
+  }
+
+  .welcome-text h1 {
+    font-size: 36px;
+    margin-top: -100px;
+  }
+
+  .welcome-text p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+}

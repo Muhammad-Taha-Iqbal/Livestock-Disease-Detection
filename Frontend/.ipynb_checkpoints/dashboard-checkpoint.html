@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+
+  <div class="dashboard-layout">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2 class="logo">LHMS</h2>
+
+      <nav class="nav-menu">
+        <a href="dashboard.html" class="nav-link active">Dashboard</a>
+        <a href="animal-selection-and-detection.html" class="nav-link">Animal Selection</a>
+        <a href="health-indicators.html" class="nav-link">Health Indicators</a>
+        <a href="reports-history.html" class="nav-link">Reports History</a>
+        <a href="vet-connect.html" class="nav-link">Vet Connect</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="dashboard-content">
+
+      <!-- Header -->
+      <header class="dashboard-header">
+        <h1>Dashboard</h1>
+
+      <div class="header-right">
+        <span class="user-name">Welcome, User</span>
+
+          <a href="welcome.html" class="logout-btn">Logout</a>
+      </div>
+      </header>
+
+      <!-- Stats Cards -->
+      <section class="stats-grid">
+
+        <div class="stat-card">
+          <h3>Total Animals</h3>
+          <p>124</p>
+        </div>
+
+        <div class="stat-card">
+          <h3>Healthy</h3>
+          <p>98</p>
+        </div>
+
+        <div class="stat-card warning">
+          <h3>At Risk</h3>
+          <p>18</p>
+        </div>
+
+        <div class="stat-card danger">
+          <h3>Critical</h3>
+          <p>8</p>
+        </div>
+
+      </section>
+
+      <!-- Recent Activity -->
+      <section class="dashboard-section">
+        <h2>Recent Activity</h2>
+
+        <div class="activity-card">
+          <p>✔ Cow health scan completed</p>
+          <span>2 minutes ago</span>
+        </div>
+
+        <div class="activity-card">
+          <p>⚠ Goat marked at risk</p>
+          <span>15 minutes ago</span>
+        </div>
+
+        <div class="activity-card">
+          <p>✔ Chicken health updated</p>
+          <span>1 hour ago</span>
+        </div>
+
+      </section>
+
+    </main>
+
+  </div>
+
+</body>
+</html>

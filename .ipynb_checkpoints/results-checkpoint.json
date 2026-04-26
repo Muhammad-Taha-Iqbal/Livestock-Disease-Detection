@@ -1,0 +1,260 @@
+[
+    {
+        "animal": "cow",
+        "disease": "healthy cows",
+        "confidence": 1.0,
+        "time": "2026-04-17 21:17:02.908613"
+    },
+    {
+        "animal": "cow",
+        "disease": "lumpy",
+        "confidence": 0.9422,
+        "time": "2026-04-17 21:17:22.555009"
+    },
+    {
+        "animal": "cow",
+        "disease": "foot and mouth",
+        "confidence": 1.0,
+        "time": "2026-04-17 21:19:16.567959"
+    },
+    {
+        "animal": "goat",
+        "disease": "goatpox",
+        "confidence": 1.0,
+        "time": "2026-04-17 21:19:43.655735"
+    },
+    {
+        "animal": "goat",
+        "disease": "healthy goat",
+        "confidence": 0.9946,
+        "time": "2026-04-17 21:20:00.174926"
+    },
+    {
+        "animal": "goat",
+        "disease": "goatpox",
+        "confidence": 0.7953,
+        "time": "2026-04-17 21:20:11.267951"
+    },
+    {
+        "animal": "goat",
+        "disease": "goatpox",
+        "confidence": 0.9817,
+        "time": "2026-04-17 21:20:19.867977"
+    },
+    {
+        "animal": "goat",
+        "disease": "goatpox",
+        "confidence": 0.9817,
+        "time": "2026-04-17 21:20:21.074327"
+    },
+    {
+        "animal": "goat",
+        "disease": "soremouth",
+        "confidence": 0.9998,
+        "time": "2026-04-17 21:20:38.089148"
+    },
+    {
+        "animal": "goat",
+        "disease": "goatpox",
+        "confidence": 0.4802,
+        "time": "2026-04-17 21:20:56.836113"
+    },
+    {
+        "animal": "chicken",
+        "disease": "anemia virus",
+        "confidence": 0.9929,
+        "time": "2026-04-17 21:21:01.679525"
+    },
+    {
+        "animal": "chicken",
+        "disease": "bumble foot",
+        "confidence": 0.9939,
+        "time": "2026-04-17 21:21:36.787624"
+    },
+    {
+        "animal": "chicken",
+        "disease": "healthy chicken",
+        "confidence": 0.9972,
+        "time": "2026-04-17 21:21:44.332437"
+    },
+    {
+        "animal": "camel",
+        "disease": "eye infection",
+        "confidence": 0.9989,
+        "time": "2026-04-17 21:22:00.719580"
+    },
+    {
+        "animal": "camel",
+        "disease": "foot and mouth",
+        "confidence": 1.0,
+        "time": "2026-04-17 21:22:12.457263"
+    },
+    {
+        "animal": "camel",
+        "disease": "healthy camel",
+        "confidence": 0.9468,
+        "time": "2026-04-17 21:22:24.570749"
+    },
+    {
+        "animal": "camel",
+        "disease": "scabies",
+        "confidence": 0.695,
+        "time": "2026-04-17 21:22:34.024018"
+    },
+    {
+        "animal": "cow",
+        "disease": "lumpy",
+        "confidence": 0.8725,
+        "time": "2026-04-17 21:24:47.504919"
+    },
+    {
+        "animal": "cow",
+        "disease": "lumpy",
+        "confidence": 0.8725,
+        "time": "2026-04-17 22:54:48.376184"
+    },
+    {
+        "animal": "cow",
+        "disease": "healthy cows",
+        "confidence": 1.0,
+        "time": "2026-04-17 22:55:38.202554"
+    },
+    {
+        "animal": "cow",
+        "disease": "lumpy",
+        "confidence": 0.8725,
+        "time": "2026-04-17 22:58:45.009341"
+    },
+    {
+        "animal": "cow",
+        "disease": "foot and mouth",
+        "confidence": 1.0,
+        "time": "2026-04-17 22:59:16.971782"
+    },
+    {
+        "animal": "goat",
+        "disease": "goatpox",
+        "confidence": 1.0,
+        "time": "2026-04-17 22:59:36.128836"
+    },
+    {
+        "animal": "chicken",
+        "disease": "bumble foot",
+        "confidence": 0.9994,
+        "time": "2026-04-17 23:01:04.076959"
+    },
+    {
+        "animal": "chicken",
+        "disease": "healthy chicken",
+        "confidence": 1.0,
+        "time": "2026-04-17 23:01:15.900094"
+    },
+    {
+        "animal": "chicken",
+        "disease": "anemia virus",
+        "confidence": 0.9985,
+        "time": "2026-04-17 23:01:23.001381"
+    },
+    {
+        "animal": "camel",
+        "disease": "scabies",
+        "confidence": 0.4812,
+        "time": "2026-04-17 23:01:43.748827"
+    },
+    {
+        "animal": "cow",
+        "disease": "lumpy",
+        "confidence": 0.9959,
+        "time": "2026-04-18 08:51:54.599921"
+    },
+    {
+        "animal": "goat",
+        "disease": "healthy goat",
+        "confidence": 0.9946,
+        "time": "2026-04-18 08:52:29.704023"
+    },
+    {
+        "animal": "camel",
+        "disease": "eye infection",
+        "confidence": 0.9989,
+        "time": "2026-04-18 08:52:46.537512"
+    },
+    {
+        "animal": "cow",
+        "disease": "lumpy",
+        "confidence": 0.8725,
+        "time": "2026-04-20 17:52:43.490324"
+    },
+    {
+        "animal": "cow",
+        "disease": "healthy cows",
+        "confidence": 1.0,
+        "time": "2026-04-20 17:53:27.656826"
+    },
+    {
+        "animal": "cow",
+        "disease": "foot and mouth",
+        "confidence": 1.0,
+        "time": "2026-04-20 17:53:54.301965"
+    },
+    {
+        "animal": "goat",
+        "disease": "goatpox",
+        "confidence": 1.0,
+        "time": "2026-04-20 17:54:21.824639"
+    },
+    {
+        "animal": "goat",
+        "disease": "healthy goat",
+        "confidence": 0.9946,
+        "time": "2026-04-20 17:54:45.065523"
+    },
+    {
+        "animal": "goat",
+        "disease": "soremouth",
+        "confidence": 0.9998,
+        "time": "2026-04-20 17:55:14.971503"
+    },
+    {
+        "animal": "camel",
+        "disease": "eye infection",
+        "confidence": 0.9989,
+        "time": "2026-04-20 17:55:36.688561"
+    },
+    {
+        "animal": "camel",
+        "disease": "healthy camel",
+        "confidence": 0.7738,
+        "time": "2026-04-20 17:56:32.728866"
+    },
+    {
+        "animal": "camel",
+        "disease": "scabies",
+        "confidence": 0.695,
+        "time": "2026-04-20 17:57:03.363499"
+    },
+    {
+        "animal": "chicken",
+        "disease": "anemia virus",
+        "confidence": 0.9962,
+        "time": "2026-04-20 17:57:53.524420"
+    },
+    {
+        "animal": "chicken",
+        "disease": "bumble foot",
+        "confidence": 0.9766,
+        "time": "2026-04-20 17:58:25.031450"
+    },
+    {
+        "animal": "chicken",
+        "disease": "fowl pox disease",
+        "confidence": 0.9987,
+        "time": "2026-04-20 17:58:54.415008"
+    },
+    {
+        "animal": "chicken",
+        "disease": "healthy chicken",
+        "confidence": 1.0,
+        "time": "2026-04-20 17:59:25.594538"
+    }
+]
